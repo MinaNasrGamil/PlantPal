@@ -1,0 +1,17 @@
+# Exclude sensitive files
+secrets.env
+*.key
+*.pem
+
+# Exclude Firebase config files
+google-services.json
+GoogleService-Info.plist
+
+# Exclude build directories
+build/
+.dart_tool/
+.idea/
+
+# Ignore Firebase config files
+android/app/google-services.json
+
