@@ -1,0 +1,69 @@
+name: plantrecogniser
+description: Plant recogniser in Flutter using TensorFlow Lite
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.6
+  collection: ^1.16.0
+  image: ^3.2.2
+  tflite_flutter: ^0.9.0
+  tflite_flutter_helper:
+    git:
+      url: https://github.com/filofan1/tflite_flutter_helper.git
+      ref: 783f15e5a87126159147d8ea30b98eea9207ac70
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.6
+  flow_builder: ^0.1.0
+  flutter_svg: ^2.0.10+1
+  cloud_firestore: ^4.14.0
+  awesome_notifications: ^0.9.3+1
+  intl: ^0.19.0
+  firebase_storage: ^11.6.0
+  flutter_staggered_grid_view: ^0.7.0
+
+
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:  
+  - family: SquadaOne
+    fonts:
+      - asset: assets/SquadaOne-Regular.ttf
+  - family: ContrailOne
+    fonts:
+      - asset: assets/ContrailOne-Regular.ttf
+  - family: Roboto
+    fonts:
+      - asset: assets/Roboto-Light.ttf      
+  
+  assets:
+    - assets/images/plantCamira.png
+    - assets/images/search.svg
+    - assets/images/plantAlarm.svg
+    - assets/images/plantCommunity.svg
+    - assets/images/raised-bed.svg
+    - assets/
+
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/pLogo3.png"
